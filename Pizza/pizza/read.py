@@ -9,7 +9,7 @@ arr  = []
 line = f.readline()
 while  line != "":
     ingreds = line.split()
-    arr.append(ingreds)
+    arr.append(list(ingreds))
     line = f.readline()
 
 

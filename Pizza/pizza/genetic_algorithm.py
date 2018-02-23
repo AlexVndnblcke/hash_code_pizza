@@ -1,5 +1,6 @@
 import Pizza
 import numpy as np
+import math
 from random import randint
 
 class Ga:
@@ -22,8 +23,7 @@ class Ga:
         
     def init_pop(self):
         width = randint(1, self.h)
-        height = randint(1, int(self.h/width))
-        
+        height = randint(math.ceil(2*l/width), int(self.h/width))
         
         
     

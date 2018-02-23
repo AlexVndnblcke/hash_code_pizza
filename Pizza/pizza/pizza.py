@@ -8,7 +8,7 @@ class Pizza:
 
 
 
-    __init__(self,rows,cols,l,h,table):
+    def __init__(self,rows,cols,l,h,table):
         self.rows = rows
         self.cols = cols
         self.l = l

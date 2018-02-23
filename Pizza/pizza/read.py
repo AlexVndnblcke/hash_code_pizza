@@ -14,3 +14,4 @@ while  line != "":
 
 
 p = Pizza(values[0],values[1],values[2],values[3],arr)
+p.print_pizza()

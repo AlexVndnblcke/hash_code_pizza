@@ -9,13 +9,8 @@ class Pizza:
 
 
     def __init__(self,rows,cols,l,h,table):
-<<<<<<< HEAD
-        self.rows = rows
-        self.cols = cols
-=======
         self.r = rows
         self.c = cols
->>>>>>> ce299acb2f84e46ded69c68fc7c5b6c896016891
         self.l = l
         self.h = h
         self.cells = table
